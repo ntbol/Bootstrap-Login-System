@@ -14,28 +14,18 @@
 	<link rel="stylesheet" href="css/custom.css">
 </head>
 <body style="background-image: -webkit-linear-gradient(#f4c4f3, #fc67fa);">
-
-	<div class="center-div">
-		<div class="float" align="center">
-		    <i class="fa fa-heart fa-3x" style="color:#fc67fa"></i>
-		    <h1 class="title">sharing is caring</h1>
-		    <p class="tiny">bringing people together one file at a time :)</p>
-		    <form>
-		    	<div class="row">
-		    		<div class="col-md-6 spacing">
-		    			<input class="form-control" type="text" name="Name" placeholder="username">
-		    		</div>
-		    		<div class="col-md-6 spacing">
-		    			<input class="form-control" type="password" name="Password" placeholder="password">
-		    		</div>
-		    		<div class="col-md-12">
-		    			<button class="btn btn-theme btn-block"><span class="fa fa-paper-plane"></span> <b>login</b></button>
-		    		</div>
-		    	</div>
-		    </form>
-		    <a href="" class="tiny"><p class="pfix">need an account?</p></a>
+	<?php include("php/nav.php"); ?>
+	<div class="row">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="float">
+					
+				</div>
+			</div>
 		</div>
 	</div>
+
+	
 
 
 

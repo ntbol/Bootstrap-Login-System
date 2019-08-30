@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+@media (max-width: 850px;){
+	.smallonmobile{
+		font-size: 5em!important;
+	}
+}
+.title{
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+}
+.whitetext{
+	color: white;
+}
+.tiny{
+	color: gray;
+	font-style: italic;
+}
+.pfix{
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+.float{
+	background-color: white;
+	border-radius: 7px;
+	padding: 25px; 
+	-webkit-box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
+	z-index: -90;
+}
+.center-div{
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	width: 35%;
+  	height:320px;
+  	max-width: 500px;
+}
+@media (max-width: 1024px){
+	.center-div{
+		width: 50%;
+	}
+}
+@media (max-width: 850px){
+	.center-div{
+		width: 90%;
+	}
+}
+.spacing{
+	padding-bottom: 20px;
+}
+.btn-theme{
+	background-color: #fc67fa;
+	color: white;
+	border-radius: 3px;
+}
+.btn-theme:hover{
+	background-color: #fda1fc;
+	color: white;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fda1fc;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(253, 161, 252, 0.25);
+}
+.bg-ligh{
+	background-color: #f4c4f3 opacity 0.0;
+}
+.navbar-ligh{
+	color: white;
+}
