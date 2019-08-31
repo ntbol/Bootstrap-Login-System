@@ -15,11 +15,78 @@
 </head>
 <body style="background-image: -webkit-linear-gradient(#f4c4f3, #fc67fa);">
 	<?php include("php/nav.php"); ?>
+	<!-- File Upload -->
 	<div class="row">
 		<div class="container">
 			<div class="col-md-12">
 				<div class="float">
-					
+					<div class="row">
+						<div class="col-md-3">
+							<h5><b>add a file</b></h5>
+						</div>
+						<div class="col-md-9">
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<input type="file"  name="datafile" size="40">
+									</div>
+									<div class="col-md-6">
+										<input type="submit" class="btn btn-theme btn-block" value="Upload">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Files -->
+	<div class="row" style="padding-top: 15px;">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="float"> 
+					<div class="row" style="padding-top:10px;">
+						<div class="col-md-1" style="margin-bottom: 0px;" align="center"><span class="fa fa-file"></span></div>
+						<div class="col-md-6">NathanBolandResume.pdf</div>
+						<div class="col-md-5">
+							<div class="row" style="float:right ">
+								<div class="container">
+									<ul class="list-inline">
+										<li class="list-inline-item"><a href="">view</a></li>
+										<li class="list-inline-item"><a href="">download</a></li>
+										<li class="list-inline-item"><a href=""><span class="fa fa-trash"></span></a></li>
+									<ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<hr style="padding: 0px; margin: 0px;">
+						</div>
+					</div>
+
+					<div class="row" style="padding-top:10px;">
+						<div class="col-md-1" style="margin-bottom: 0px;" align="center"><span class="fa fa-file"></span></div>
+						<div class="col-md-6">NathanBolandResume.pdf</div>
+						<div class="col-md-5">
+							<div class="row" style="float:right ">
+								<div class="container">
+									<ul class="list-inline">
+										<li class="list-inline-item"><a href="">view</a></li>
+										<li class="list-inline-item"><a href="">download</a></li>
+										<li class="list-inline-item"><a href=""><span class="fa fa-trash"></span></a></li>
+									<ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<hr style="padding: 0px; margin: 0px;">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -4,6 +4,7 @@ body, html{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
+	overflow: hidden;
 }
 @media (max-width: 850px;){
 	.smallonmobile{
@@ -12,7 +13,7 @@ body, html{
 }
 .title{
 	font-size: 40px;
-	font-family: 'Pacifico', cursive;
+	font-weight: bolder;
 }
 .whitetext{
 	color: white;
@@ -27,12 +28,14 @@ body, html{
 }
 .float{
 	background-color: white;
-	border-radius: 7px;
+	border-radius: 10px;
 	padding: 25px; 
+	/*
 	-webkit-box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 57px -18px rgba(0,0,0,0.75);
-	z-index: -90;
+	*/
+	z-index: -99;
 }
 .center-div{
 	position: absolute;
