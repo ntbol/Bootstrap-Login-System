@@ -84,3 +84,9 @@ body, html{
 .navbar-ligh{
 	color: white;
 }
+.themelink a{
+	color: #fc67fa;
+}
+.themelink a:hover{
+	color: #fda1fc;
+}

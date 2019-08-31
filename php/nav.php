@@ -10,11 +10,11 @@
 
         </ul>
         <ul class="navbar-nav justify-content-end">
-            <li class="nav-item active">
-            <a class="nav-link" href="#"><p class="whitetext"><b>files</b></p></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><p class="whitetext"><b>welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?></b></p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><p class="whitetext"><b>log out</b></p></a>
+            <a class="nav-link" href="php/logout.php"><span class="whitetext fa fa-sign-out"></span></a>
           </li>
       </ul>
       </div>

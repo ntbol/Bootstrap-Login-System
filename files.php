@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+// Check if the user is logged in, if not redirects them to login page.
+
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+	header("location: index.php");
+	exit;
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,9 +66,9 @@
 							<div class="row" style="float:right ">
 								<div class="container">
 									<ul class="list-inline">
-										<li class="list-inline-item"><a href="">view</a></li>
-										<li class="list-inline-item"><a href="">download</a></li>
-										<li class="list-inline-item"><a href=""><span class="fa fa-trash"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-eye"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-download"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-trash"></span></a></li>
 									<ul>
 								</div>
 							</div>
@@ -74,9 +87,9 @@
 							<div class="row" style="float:right ">
 								<div class="container">
 									<ul class="list-inline">
-										<li class="list-inline-item"><a href="">view</a></li>
-										<li class="list-inline-item"><a href="">download</a></li>
-										<li class="list-inline-item"><a href=""><span class="fa fa-trash"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-eye"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-download"></span></a></li>
+										<li class="list-inline-item themelink"><a href=""><span class="fa fa-trash"></span></a></li>
 									<ul>
 								</div>
 							</div>
