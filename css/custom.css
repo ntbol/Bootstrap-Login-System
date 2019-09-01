@@ -62,21 +62,21 @@ body, html{
 	padding-bottom: 20px;
 }
 .btn-theme{
-	background-color: #fc67fa;
+	background-color: #203A43;
 	color: white;
 	border-radius: 3px;
 }
 .btn-theme:hover{
-	background-color: #fda1fc;
+	background-color: #2C5364;
 	color: white;
 }
 
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #fda1fc;
+  border-color: #2C5364;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(253, 161, 252, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(44, 83, 100, 0.25);
 }
 .bg-ligh{
 	background-color: #f4c4f3 opacity 0.0;
@@ -85,8 +85,8 @@ body, html{
 	color: white;
 }
 .themelink a{
-	color: #fc67fa;
+	color: #203A43;
 }
 .themelink a:hover{
-	color: #fda1fc;
+	color: #2C5364;
 }

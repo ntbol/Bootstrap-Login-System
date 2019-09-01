@@ -2,9 +2,9 @@
 // Initialize the session
 session_start();
  
-// Check if the user is already logged in, if yes then redirect him to welcome page
+// Check if the user is already logged in, if yes then redirect them to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: files.php");
+    header("location: welcome.php");
     exit;
 }
  
@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            header("location: files.php");
+                            header("location: welcome.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "The password you entered was not valid.";
@@ -102,25 +102,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css">
 </head>
-<body style="background-image: -webkit-linear-gradient(#f4c4f3, #fc67fa);">
+<body style="background-image: -webkit-linear-gradient(#0F2027, #203A43, #2C5364);">
 
 	<div class="center-div">
 		<div class="float" align="center">
-		    <i class="fa fa-heart fa-3x" style="color:#fc67fa"></i>
-		    <h1 class="title">sharing is caring</h1>
-		    <p class="tiny">bringing people together one file at a time :)</p>
+		    <i class="fa fa-lock fa-3x" style="color:#203A43"></i>
+		    <h1 class="title">Simple Login System</h1>
+		    <p class="tiny">Using PHP, SQL & Bootstrap</p>
 		    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 		    	<div class="row">
 		    		<div class="col-md-6 spacing <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-		    			<input class="form-control" type="text" name="username" placeholder="username" value="<?php echo $username; ?>">
+		    			<input class="form-control" type="text" name="username" placeholder="Username" value="<?php echo $username; ?>">
 		    			<span class="help-block"><?php echo $username_err; ?></span>
 		    		</div>
 		    		<div class="col-md-6 spacing <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-		    			<input class="form-control" type="password" name="password" placeholder="password">
+		    			<input class="form-control" type="password" name="password" placeholder="Password">
 		    			<span class="help-block"><?php echo $password_err; ?></span>
 		    		</div>
 		    		<div class="col-md-12">
-		    			<input type="submit" class="btn btn-theme btn-block" value="login">
+		    			<input type="submit" class="btn btn-theme btn-block" value="Login">
 		    		</div>
 		    	</div>
 		    </form>

@@ -1,5 +1,5 @@
-# Sharing Is Caring
-A simple file sharing platform
+# Simple Secure Login System
+Using PHP, SQL & Bootstrap
 
 Created by Nate Boland
 ntboland@gmail.com
