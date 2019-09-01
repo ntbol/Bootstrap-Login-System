@@ -92,9 +92,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Nate Boland">
-	<meta name="description" content="A simple file sharing platform, cool people only.">
-	<meta name="keywords" content="files, sharing, storage">
-	<title>Sharing Is Caring</title>
+	<meta name="description" content="A simple secure login system">
+	<title>A Simple Secure Login System</title>
 	<!-- Bootstrap 4 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- Font Awesome 4 -->
@@ -124,7 +123,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		    		</div>
 		    	</div>
 		    </form>
-		    <a href="" class="tiny"><p class="pfix">need an account?</p></a>
+		    <a href="register.php" class="tiny"><p class="pfix">need an account?</p></a>
 		</div>
 	</div>
 
